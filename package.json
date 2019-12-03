@@ -2,7 +2,11 @@
   "name": "@joeattardi/react-mapquest-static-map",
   "version": "1.0.0",
   "description": "React component for MapQuest static maps",
-  "keywords": ["react", "maps", "mapquest"],
+  "keywords": [
+    "react",
+    "maps",
+    "mapquest"
+  ],
   "main": "dist/index.js",
   "directories": {
     "example": "example"
