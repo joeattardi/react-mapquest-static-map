@@ -6,9 +6,9 @@ import Markers from './Markers';
 
 const MAPQUEST_BASE_URL = 'https://www.mapquestapi.com/staticmap/v5/map';
 
-export default function Map({ children, mapquestApiKey, center, boundingBox, zoom, width, height, margin, format, type, scalebar, scalebarPosition }) {
+export default function Map({ children, apiKey, center, boundingBox, zoom, width, height, margin, format, type, scalebar, scalebarPosition }) {
   let mapUrl = MAPQUEST_BASE_URL;
-  mapUrl += `?key=${mapquestApiKey}`;
+  mapUrl += `?key=${apiKey}`;
 
   if (center) {
     mapUrl += `&center=${encodeURIComponent(center)}`;

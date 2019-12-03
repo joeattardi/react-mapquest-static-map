@@ -1,0 +1,28 @@
+@import '../styles/variables';
+
+#sidebar {
+  background: $sidebarColor;
+  padding: 0.5rem;
+  width: 15rem;
+  min-width: 15rem;
+
+  nav {
+    h2 {
+      margin: 0.5rem 0 0 0;
+      font-size: 0.8rem;
+
+      &:first-of-type {
+        margin: 0;
+      }
+    }
+
+    ul {
+      margin: 0;
+      padding: 0;
+
+      li {
+        list-style-type: none;
+      }
+    }
+  }
+}

@@ -1,5 +1,5 @@
 import React from 'react';
 
-export default function Banner({ text, size, position, bannerColor, textColor }) {
+export default function Banner() {
   return <div />;
 }

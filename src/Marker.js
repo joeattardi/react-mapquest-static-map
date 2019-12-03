@@ -1,5 +1,5 @@
 import React from 'react';
 
-export default function Marker({ location, icon }) {
+export default function Marker() {
   return <div />;
 }

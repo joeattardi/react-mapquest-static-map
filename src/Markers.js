@@ -1,5 +1,5 @@
 import React from 'react';
 
-export default function Markers({ declutter }) {
+export default function Markers() {
   return <div />;
 }
