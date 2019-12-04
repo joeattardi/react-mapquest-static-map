@@ -3,7 +3,7 @@ import { Map } from "@joeattardi/react-mapquest-static-map"
 
 import { MAPQUEST_API_KEY } from "../config"
 
-export default function MapWithCenter() {
+export default function MapWithZoom() {
   return (
     <div>
       <Map
@@ -11,6 +11,7 @@ export default function MapWithCenter() {
         center="Boston, MA"
         width={800}
         height={500}
+        zoom={15}
       />
     </div>
   )

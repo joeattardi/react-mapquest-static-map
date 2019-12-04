@@ -1,9 +1,9 @@
 import React from "react"
-import { Map } from "@joeattardi/react-mapquest-static-map"
+import { Banner, Map } from "@joeattardi/react-mapquest-static-map"
 
 import { MAPQUEST_API_KEY } from "../config"
 
-export default function MapWithCenter() {
+export default function BasicBanner() {
   return (
     <div>
       <Map
@@ -11,7 +11,9 @@ export default function MapWithCenter() {
         center="Boston, MA"
         width={800}
         height={500}
-      />
+      >
+        <Banner text="Home Sweet Home" />
+      </Map>
     </div>
   )
 }

@@ -13,9 +13,18 @@ export default function Sidebar() {
           <li><NavigationLink to="/">Home</NavigationLink></li>
           <li><NavigationLink to="/getting-started">Getting Started</NavigationLink></li>
         </ul>
-        <h2>Examples</h2>
+        <h2>Basic Maps</h2>
         <ul>
           <li><NavigationLink to="/examples/MapWithCenter">Map With Center</NavigationLink></li>
+          <li><NavigationLink to="/examples/MapWithZoom">Map With Zoom</NavigationLink></li>
+          <li><NavigationLink to="/examples/MapSizes">Map Sizes</NavigationLink></li>
+          <li><NavigationLink to="/examples/MapTypes">Map Types</NavigationLink></li>
+          <li><NavigationLink to="/examples/BoundingBox">Map Bounding Box</NavigationLink></li>
+        </ul>
+        <h2>Banner</h2>
+        <ul>
+          <li><NavigationLink to="/examples/BasicBanner">Basic Banner</NavigationLink></li>
+          <li><NavigationLink to="/examples/CustomBanner">Custom Banner</NavigationLink></li>
         </ul>
       </nav>
     </div>

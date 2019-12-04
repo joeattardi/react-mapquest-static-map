@@ -6,7 +6,6 @@ import SourceFile from '../../components/SourceFile';
 import MapWithCenter from '../../examples/MapWithCenter';
 import src from '!!raw-loader!../../examples/MapWithCenter';
 
-
 export default function MapWithCenterPage() {
   return (
     <Layout>

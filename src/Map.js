@@ -6,7 +6,7 @@ import Markers from './Markers';
 
 const MAPQUEST_BASE_URL = 'https://www.mapquestapi.com/staticmap/v5/map';
 
-export default function Map({ children, apiKey, center, boundingBox, zoom, width, height, margin, format, type, scalebar, scalebarPosition }) {
+export default function Map({ children, apiKey, center, boundingBox, zoom, width, height, margin, format, type, scalebar, scalebarPosition, retina }) {
   let mapUrl = MAPQUEST_BASE_URL;
   mapUrl += `?key=${apiKey}`;
 
@@ -41,6 +41,10 @@ export default function Map({ children, apiKey, center, boundingBox, zoom, width
   mapUrl += `&zoom=${zoom}`;
   mapUrl += `&size=${width},${height}`;
 
+  if (retina === true) {
+    mapUrl += '@2x';
+  }
+
   let markers = [];
 
   React.Children.forEach(children, child => {
@@ -71,7 +75,7 @@ export default function Map({ children, apiKey, center, boundingBox, zoom, width
   }
 
   return (
-    <img src={mapUrl} />
+    <img src={mapUrl} style={{ width: `${width}px`, height: `${height}px` }} />
   );
 }
 
