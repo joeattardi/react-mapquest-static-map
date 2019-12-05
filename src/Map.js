@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import Banner from './Banner';
 import Marker from './Marker';
@@ -96,4 +97,19 @@ Map.defaultProps = {
   zoom: 15,
   width: 400,
   height: 400
+};
+
+Map.propTypes = {
+  apiKey: PropTypes.string.isRequired,
+  center: PropTypes.string,
+  boundingBox: PropTypes.arrayOf(PropTypes.number),
+  zoom: PropTypes.number,
+  width: PropTypes.number,
+  height: PropTypes.number,
+  margin: PropTypes.number,
+  format: PropTypes.oneOf(['png', 'jpeg', 'jpg', 'jpg70', 'jpg80', 'jpg90', 'gif']),
+  type: PropTypes.oneOf(['map', 'hyb', 'sat', 'light', 'dark']),
+  scaleBar: PropTypes.bool,
+  scalebarPosition: PropTypes.oneOf(['bottom', 'top']),
+  retina: PropTypes.bool
 };
