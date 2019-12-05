@@ -7,7 +7,21 @@ import Markers from './Markers';
 
 const MAPQUEST_BASE_URL = 'https://www.mapquestapi.com/staticmap/v5/map';
 
-export default function Map({ children, apiKey, center, boundingBox, zoom, width, height, margin, format, type, scalebar, scalebarPosition, retina }) {
+export default function Map({
+  children,
+  apiKey,
+  center,
+  boundingBox,
+  zoom,
+  width,
+  height,
+  margin,
+  format,
+  type,
+  scalebar,
+  scalebarPosition,
+  retina
+}) {
   let mapUrl = MAPQUEST_BASE_URL;
   mapUrl += `?key=${apiKey}`;
 
@@ -57,7 +71,9 @@ export default function Map({ children, apiKey, center, boundingBox, zoom, width
       }
 
       if (child.props.defaultMarker) {
-        mapUrl += `&defaultMarker=${encodeURIComponent(child.props.defaultMarker)}`;
+        mapUrl += `&defaultMarker=${encodeURIComponent(
+          child.props.defaultMarker
+        )}`;
       }
       React.Children.forEach(child.props.children, marker => {
         if (marker.type === Marker) {
@@ -81,9 +97,14 @@ export default function Map({ children, apiKey, center, boundingBox, zoom, width
 }
 
 function getBanner(child) {
-  const bannerOptions = [child.props.size, child.props.position, child.props.bannerColor, child.props.textColor]
-  .filter(option => !!option)
-  .join('-');
+  const bannerOptions = [
+    child.props.size,
+    child.props.position,
+    child.props.bannerColor,
+    child.props.textColor
+  ]
+    .filter(option => !!option)
+    .join('-');
 
   let bannerArg = child.props.text;
   if (bannerOptions) {
@@ -107,7 +128,15 @@ Map.propTypes = {
   width: PropTypes.number,
   height: PropTypes.number,
   margin: PropTypes.number,
-  format: PropTypes.oneOf(['png', 'jpeg', 'jpg', 'jpg70', 'jpg80', 'jpg90', 'gif']),
+  format: PropTypes.oneOf([
+    'png',
+    'jpeg',
+    'jpg',
+    'jpg70',
+    'jpg80',
+    'jpg90',
+    'gif'
+  ]),
   type: PropTypes.oneOf(['map', 'hyb', 'sat', 'light', 'dark']),
   scaleBar: PropTypes.bool,
   scalebarPosition: PropTypes.oneOf(['bottom', 'top']),
