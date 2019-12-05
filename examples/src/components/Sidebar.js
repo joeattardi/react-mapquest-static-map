@@ -26,6 +26,11 @@ export default function Sidebar() {
           <li><NavigationLink to="/examples/BasicBanner">Basic Banner</NavigationLink></li>
           <li><NavigationLink to="/examples/CustomBanner">Custom Banner</NavigationLink></li>
         </ul>
+        <h2>Markers</h2>
+        <ul>
+          <li><NavigationLink to="/examples/MapWithMarkers">Map With Markers</NavigationLink></li>
+          <li><NavigationLink to="/examples/CustomMarkers">Custom Markers</NavigationLink></li>
+        </ul>
       </nav>
     </div>
   );
