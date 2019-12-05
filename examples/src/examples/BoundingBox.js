@@ -1,7 +1,7 @@
-import React from "react"
-import { Map } from "@joeattardi/react-mapquest-static-map"
+import React from 'react';
+import { Map } from '@joeattardi/react-mapquest-static-map';
 
-import { MAPQUEST_API_KEY } from "../config"
+import { MAPQUEST_API_KEY } from '../config';
 
 export default function BoundingBox() {
   return (
@@ -13,5 +13,5 @@ export default function BoundingBox() {
         height={500}
       />
     </div>
-  )
+  );
 }

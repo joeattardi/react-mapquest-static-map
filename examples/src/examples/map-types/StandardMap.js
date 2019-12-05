@@ -1,7 +1,7 @@
-import React from "react"
-import { Map } from "@joeattardi/react-mapquest-static-map"
+import React from 'react';
+import { Map } from '@joeattardi/react-mapquest-static-map';
 
-import { MAPQUEST_API_KEY } from "../../config"
+import { MAPQUEST_API_KEY } from '../../config';
 
 export default function MapWithCenter() {
   return (
@@ -14,5 +14,5 @@ export default function MapWithCenter() {
         type="map"
       />
     </div>
-  )
+  );
 }

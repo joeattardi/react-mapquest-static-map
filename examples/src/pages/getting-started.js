@@ -12,9 +12,7 @@ export default function GettingStartedPage() {
     <Layout>
       <h1>Getting Started</h1>
       <h2>Install the package</h2>
-      <code>
-        npm install --save @joeattardi/react-mapquest-static-map
-      </code>
+      <code>npm install --save @joeattardi/react-mapquest-static-map</code>
 
       <h2>Example usage</h2>
 

@@ -1,7 +1,7 @@
-import React from "react"
-import { Map, Markers, Marker } from "@joeattardi/react-mapquest-static-map"
+import React from 'react';
+import { Map, Markers, Marker } from '@joeattardi/react-mapquest-static-map';
 
-import { MAPQUEST_API_KEY } from "../config"
+import { MAPQUEST_API_KEY } from '../config';
 
 export default function MapWithMarkers() {
   return (
@@ -18,5 +18,5 @@ export default function MapWithMarkers() {
         </Markers>
       </Map>
     </div>
-  )
+  );
 }

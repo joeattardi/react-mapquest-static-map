@@ -19,9 +19,7 @@ export default function Layout({ children }) {
       <Header />
       <div id={styles.contentContainer}>
         <Sidebar />
-        <main id={styles.mainContent}>
-          {children}
-        </main>
+        <main id={styles.mainContent}>{children}</main>
       </div>
     </div>
   );
