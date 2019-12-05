@@ -8,7 +8,7 @@ import src from '!!raw-loader!../../examples/MapWithZoom';
 
 export default function MapWithZoomPage() {
   return (
-    <Layout>
+    <Layout title="Map With Zoom">
       <h2>Map With Zoom</h2>
       <SourceFile src={src} />
       <MapWithZoom />

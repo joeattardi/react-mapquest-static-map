@@ -8,7 +8,7 @@ import src from '!!raw-loader!../../examples/BasicBanner';
 
 export default function BasicBannerPage() {
   return (
-    <Layout>
+    <Layout title="Basic Banner">
       <h2>Basic Banner</h2>
       <SourceFile src={src} />
       <BasicBanner />

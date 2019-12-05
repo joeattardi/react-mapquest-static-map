@@ -6,7 +6,7 @@ export default function IndexPage() {
   return (
     <Layout>
       <p>
-        This component allows you to add MapQuest static maps to your React
+        This component allows you to add <a href="https://developer.mapquest.com/documentation/static-map-api/v5/">MapQuest static maps</a> to your React
         application.
       </p>
     </Layout>

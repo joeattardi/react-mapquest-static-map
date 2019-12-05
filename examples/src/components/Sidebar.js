@@ -18,6 +18,9 @@ export default function Sidebar() {
               Getting Started
             </NavigationLink>
           </li>
+          <li>
+            <NavigationLink to="/api">API</NavigationLink>
+          </li>
         </ul>
         <h2>Basic Maps</h2>
         <ul>

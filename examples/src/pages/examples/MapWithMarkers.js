@@ -8,7 +8,7 @@ import src from '!!raw-loader!../../examples/MapWithMarkers';
 
 export default function MapWithMarkersPage() {
   return (
-    <Layout>
+    <Layout title="Map With Markers">
       <h2>Map With Markers</h2>
       <SourceFile src={src} />
       <MapWithMarkers />

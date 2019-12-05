@@ -20,7 +20,7 @@ import darkMapSrc from '!!raw-loader!../../examples/map-types/DarkMap';
 
 export default function MapTypes() {
   return (
-    <Layout>
+    <Layout title="Map Types">
       <h2>Map Types</h2>
       <div>
         <h3>Standard Map</h3>

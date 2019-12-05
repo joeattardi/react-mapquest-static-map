@@ -3,6 +3,7 @@ module.exports = {
     title: 'MapQuest Static Maps for React'
   },
   plugins: [
-    'gatsby-plugin-sass'
+    'gatsby-plugin-sass',
+    'gatsby-plugin-react-helmet'
   ]
 };

@@ -8,7 +8,7 @@ import src from '!!raw-loader!../../examples/MapWithCenter';
 
 export default function MapWithCenterPage() {
   return (
-    <Layout>
+    <Layout title="Map With Center">
       <h2>Map With Center</h2>
       <SourceFile src={src} />
       <MapWithCenter />

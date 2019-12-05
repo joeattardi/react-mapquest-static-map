@@ -8,8 +8,8 @@ import src from '!!raw-loader!../../examples/CustomBanner';
 
 export default function CustomBannerPage() {
   return (
-    <Layout>
-      <h2>Basic Banner</h2>
+    <Layout title="Custom Banner">
+      <h2>Custom Banner</h2>
       <SourceFile src={src} />
       <CustomBanner />
     </Layout>

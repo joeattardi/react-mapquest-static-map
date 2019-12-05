@@ -9,7 +9,7 @@ import src from '!!raw-loader!../examples/BaseExample';
 
 export default function GettingStartedPage() {
   return (
-    <Layout>
+    <Layout title="Getting Started">
       <h1>Getting Started</h1>
       <h2>Install the package</h2>
       <code>npm install --save @joeattardi/react-mapquest-static-map</code>

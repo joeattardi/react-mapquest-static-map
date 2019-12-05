@@ -8,8 +8,8 @@ import src from '!!raw-loader!../../examples/CustomMarkers';
 
 export default function CustomMarkersPage() {
   return (
-    <Layout>
-      <h2>Map With Markers</h2>
+    <Layout title="Custom Markers">
+      <h2>Custom Markers</h2>
       <SourceFile src={src} />
       <CustomMarkers />
     </Layout>
