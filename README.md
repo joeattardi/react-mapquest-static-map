@@ -2,6 +2,8 @@
 
 Add MapQuest static maps to your React app
 
+*Note*: This is an unofficial library and is not affiliated with MapQuest in any way.
+
 ## [Documentation](https://joeattardi.github.io/react-mapquest-static-map)
  - [API reference](https://joeattardi.github.io/react-mapquest-static-map/api/Map)
  - [Examples](https://joeattardi.github.io/react-mapquest-static-map/examples/MapWithCenter)

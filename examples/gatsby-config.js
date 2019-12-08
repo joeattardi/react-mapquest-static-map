@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'MapQuest Static Maps for React'
+    title: 'React MapQuest Static Maps'
   },
   pathPrefix: "/react-mapquest-static-map",
   plugins: [
