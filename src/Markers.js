@@ -6,5 +6,6 @@ export default function Markers() {
 }
 
 Markers.propTypes = {
-  declutter: PropTypes.bool
+  declutter: PropTypes.bool,
+  defaultMarker: PropTypes.string
 };
