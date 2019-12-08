@@ -7,6 +7,9 @@
     "maps",
     "mapquest"
   ],
+  "files": [
+    "dist"
+  ],
   "main": "dist/index.js",
   "directories": {
     "example": "example"
