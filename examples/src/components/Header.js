@@ -21,6 +21,7 @@ export default function Header() {
       <a href="https://github.com/joeattardi/react-mapquest-static-map">
         <img src="https://img.shields.io/github/stars/joeattardi/react-mapquest-static-map?style=social" />
       </a>
+      <a href="https://npmjs.com/package/@joeattardi/react-mapquest-static-map"><img src="https://img.shields.io/npm/v/@joeattardi/react-mapquest-static-map" /></a>
     </header>
   );
 }
