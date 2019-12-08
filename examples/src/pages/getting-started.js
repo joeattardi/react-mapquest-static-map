@@ -11,6 +11,11 @@ export default function GettingStartedPage() {
   return (
     <Layout title="Getting Started">
       <h1>Getting Started</h1>
+      <h2>Sign up for a MapQuest API key</h2>
+      <p>
+        Sign up at <a href="https://developer.mapquest.com/">https://developer.mapquest.com/</a>.
+      </p>
+
       <h2>Install the package</h2>
       <code>npm install --save @joeattardi/react-mapquest-static-map</code>
 

@@ -18,6 +18,9 @@ export default function Header() {
   return (
     <header id={styles.header}>
       <h1>{data.site.siteMetadata.title}</h1>
+      <a href="https://github.com/joeattardi/react-mapquest-static-map">
+        <img src="https://img.shields.io/github/stars/joeattardi/react-mapquest-static-map?style=social" />
+      </a>
     </header>
   );
 }

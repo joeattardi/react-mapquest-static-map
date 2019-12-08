@@ -18,9 +18,13 @@ export default function Sidebar() {
               Getting Started
             </NavigationLink>
           </li>
-          <li>
-            <NavigationLink to="/api">API</NavigationLink>
-          </li>
+        </ul>
+        <h2>API</h2>
+        <ul>
+          <li><NavigationLink to="/api/Map">Map</NavigationLink></li>
+          <li><NavigationLink to="/api/Banner">Banner</NavigationLink></li>
+          <li><NavigationLink to="/api/Markers">Markers</NavigationLink></li>
+          <li><NavigationLink to="/api/Marker">Marker</NavigationLink></li>
         </ul>
         <h2>Basic Maps</h2>
         <ul>
